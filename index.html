@@ -1,10 +1,112 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Coming Soon</title>
-  </head>
-  <body>
-    <h1>Coming Soon</h1>
-    <p>This site is under construction. Check back soon!</p>
-  </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dropping A Log — A Buddy Podcast</title>
+<meta name="description" content="Dropping A Log: a buddy podcast about nothing in particular and everything that matters. New episodes weekly.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header">
+  <a href="#home" class="wordmark">DROPPING<span>A LOG</span></a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#episodes">Episodes</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="home" class="hero">
+    <div class="ring-bg" aria-hidden="true">
+      <svg viewBox="0 0 600 600">
+        <circle cx="300" cy="300" r="280"/>
+        <circle cx="300" cy="300" r="230"/>
+        <circle cx="300" cy="300" r="180"/>
+        <circle cx="300" cy="300" r="130"/>
+        <circle cx="300" cy="300" r="80"/>
+        <circle cx="300" cy="300" r="30"/>
+      </svg>
+    </div>
+    <p class="eyebrow">● REC — TWO GUYS, ONE MIC</p>
+    <h1>DROPPING<br><span>A LOG</span></h1>
+    <p class="tagline">The buddy podcast where every episode gets logged, ranked, and roasted. Nothing's off the table. Nothing's on a schedule, either.</p>
+    <div class="hero-actions">
+      <a href="#episodes" class="btn btn-primary">Listen to the log</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-label">
+      <span class="tag">EP. 000 — THE PILOT</span>
+    </div>
+    <div class="about-copy">
+      <h2>Two buddies. One log.</h2>
+      <p>Dropping A Log started as a group chat that got out of hand and turned into a microphone. Every week we sit down, hit record, and talk through whatever's stuck in our heads — bad decisions, good stories, and the stuff nobody else wants to log for the record.</p>
+      <p>No script. No filter. Just two guys keeping an honest log of everything that happened since the last one.</p>
+    </div>
+  </section>
+
+  <section id="episodes" class="episodes">
+    <div class="section-head">
+      <h2>The Log Book</h2>
+      <p>A running record. New entries dropped weekly.</p>
+    </div>
+
+    <div class="episode-grid">
+
+      <article class="episode">
+        <div class="ring" aria-hidden="true">
+          <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="92"/><circle cx="100" cy="100" r="72"/><circle cx="100" cy="100" r="52"/><circle cx="100" cy="100" r="32"/></svg>
+          <span class="ring-num">014</span>
+        </div>
+        <h3>The One With the Rental Truck</h3>
+        <p>A weekend project goes sideways, a truck rental goes worse, and somehow it's still the best story we've got this month.</p>
+      </article>
+
+      <article class="episode">
+        <div class="ring" aria-hidden="true">
+          <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="92"/><circle cx="100" cy="100" r="72"/><circle cx="100" cy="100" r="52"/><circle cx="100" cy="100" r="32"/></svg>
+          <span class="ring-num">013</span>
+        </div>
+        <h3>Unsolicited Life Advice</h3>
+        <p>Neither of us is qualified. Both of us have opinions. You've been warned.</p>
+      </article>
+
+      <article class="episode">
+        <div class="ring" aria-hidden="true">
+          <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="92"/><circle cx="100" cy="100" r="72"/><circle cx="100" cy="100" r="52"/><circle cx="100" cy="100" r="32"/></svg>
+          <span class="ring-num">012</span>
+        </div>
+        <h3>Logging Off Forever (We Didn't)</h3>
+        <p>We threatened to quit the show. Then we recorded an episode about it. You can guess how that went.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-inner">
+      <p class="eyebrow eyebrow-light">GOT A STORY WORTH LOGGING?</p>
+      <h2>Talk to the log.</h2>
+      <p class="contact-copy">Guest pitches, topic ideas, or just want to tell us we're wrong about something — the inbox is always open.</p>
+      <a class="email-link" href="mailto:jr@droppingalog.com">jr@droppingalog.com</a>
+      <p class="contact-note">We read everything. We reply to most of it eventually.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Dropping A Log. All entries logged, none of them fact-checked.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
